@@ -3,23 +3,25 @@
         "title": "Redeemer Reformed Baptist Church",
         "description": "All services are held within the gymnasium",
         "geo": [33.6502616, -111.9788629],
+        "height": 64,
+        "width": 64,
         "icon": "img/rrbc.svg"
     },
     {
         "title": "Visitor parking",
-        "description": "These parking spaces are available to non-members or individuals with special needs.",
+        "description": "These parking spaces are available for visitors or individuals with special needs.",
         "geo": [33.6499580, -111.9790184],
         "icon": "img/parking.svg"
     },
     {
         "title": "Parking",
-        "description": "Members are encouraged to park here to save space for new visitors.",
+        "description": "Members are encouraged to park here to save space for visitors.",
         "geo": [33.6513780, -111.9787931],
         "icon": "img/parking.svg"
     },
     {
         "title": "Parking",
-        "description": "Members are encouraged to park here to save space for new visitors.",
+        "description": "Members are encouraged to park here to save space for visitors.",
         "geo": [33.6513646, -111.9782299],
         "icon": "img/parking.svg"
     },

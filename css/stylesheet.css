@@ -1,2 +1,5 @@
-body { margin: 0px; }
+body { margin: 0px; font-family: Arial; }
 #leaflet-map { width: 100vw; height: 100vh; }
+#leaflet-map .leaflet-popup-content { max-width: 10rem; text-align: center; padding: 0.5rem; }
+#leaflet-map .leaflet-popup-content .title { color: #662410; font-size: 1rem; font-weight: bold; margin-bottom: 0.5rem; }
+#leaflet-map .leaflet-popup-content .description { color: #000000; font-size: 0.875rem; }

@@ -31,7 +31,7 @@
         var group = new L.featureGroup([]);
         $.getJSON('./json/pins.json?v=' + new Date().getTime(), function(json) {
             json.forEach(function(pin) {
-                var icon = L.icon({ iconUrl: pin.icon, iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] });
+                var icon = L.icon({ iconUrl: pin.icon, iconSize: [pin.width || 32, pin.height || 32], iconAnchor: [pin.width / 2 || 16, pin.height || 32], popupAnchor: [0, -pin.height || -32] });
                 var marker = L.marker(pin.geo, { icon: icon }).addTo(group);
                 marker.bindPopup(
                     '<div class="title">'+ pin.title + '</div>' +
