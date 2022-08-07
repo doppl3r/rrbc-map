@@ -34,10 +34,10 @@
                 var icon = L.icon({ iconUrl: pin.icon, iconSize: [pin.width || 32, pin.height || 32], iconAnchor: [pin.width / 2 || 16, pin.height || 32], popupAnchor: [0, -pin.height || -32] });
                 var marker = L.marker(pin.geo, { icon: icon }).addTo(group);
                 marker.bindPopup(
-                    '<div class="title">'+ pin.title + '</div>' +
-                    '<div class="description">'+ pin.description + '</div>'
-                );
-            })
+                    '<div class="title">' + pin.title + '</div>' +
+                    '<div class="description">' + pin.description + '</div>'
+                    );
+                });
         });
         group.addTo(map);
         L.control.zoom({ position:'bottomright' }).addTo(map);
