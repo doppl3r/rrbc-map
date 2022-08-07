@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Redeemer Reformed Baptist Church",
+        "description": "All services are held within the gymnasium",
+        "geo": [33.6502616, -111.9788629],
+        "icon": "img/rrbc.svg"
+    },
+    {
+        "title": "Visitor parking",
+        "description": "These parking spaces are available to non-members or individuals with special needs.",
+        "geo": [33.6499580, -111.9790184],
+        "icon": "img/parking.svg"
+    },
+    {
+        "title": "Parking",
+        "description": "Members are encouraged to park here to save space for new visitors.",
+        "geo": [33.6513780, -111.9787931],
+        "icon": "img/parking.svg"
+    },
+    {
+        "title": "Parking",
+        "description": "Members are encouraged to park here to save space for new visitors.",
+        "geo": [33.6513646, -111.9782299],
+        "icon": "img/parking.svg"
+    },
+    {
+        "title": "Milestones Charter School",
+        "description": "Worship has moved to the South gymnasium.",
+        "geo": [33.6512396, -111.9792438],
+        "icon": "img/info.svg"
+    },
+    {
+        "title": "New Vision Center for Spiritual Living",
+        "description": "Please respect our neighbors by following the roads ands entrances marked on the map.",
+        "geo": [33.6502170, -111.9779348],
+        "icon": "img/info.svg"
+    }
+]

@@ -1,1 +1,2 @@
-#leaflet-map { padding-bottom: 50%;}
+body { margin: 0px; }
+#leaflet-map { width: 100vw; height: 100vh; }
