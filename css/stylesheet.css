@@ -4,4 +4,5 @@ body { margin: 0px; font-family: Arial; }
 #leaflet-map .leaflet-popup-content-wrapper .leaflet-popup-content { max-width: 10rem; text-align: center; padding: 0.5rem; }
 #leaflet-map .leaflet-popup-content-wrapper .leaflet-popup-content .title { color: #662410; font-size: 1rem; font-weight: bold; margin-bottom: 0.5rem; }
 #leaflet-map .leaflet-popup-content-wrapper .leaflet-popup-content .description { color: #000000; font-size: 0.875rem; }
+#leaflet-map .leaflet-popup-content-wrapper .leaflet-popup-content .description a { border-radius: 999px; display: inline-block; padding: 8px 12px; background-color: #662410; color: #ffffff; text-decoration: none; margin-top: 0.5rem; }
 #leaflet-map .leaflet-popup-tip-container .leaflet-popup-tip { background-color: rgba(255, 255, 255, 0.9); }
