@@ -26,7 +26,7 @@
                 "hardwareAccelerated": true
             });
             map.addLayer(path);
-            map.fitBounds(path.getBounds(), { padding: [16, 16] });
+            map.fitBounds(path.getBounds(), { padding: [64, 16] });
             window.path = path;
         });
 
