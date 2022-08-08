@@ -2,7 +2,7 @@
     'use strict';
     
     $(document).ready(function(){
-        var debug = false;
+        var debug = true;
         var map = L.map('leaflet-map', { dragging: !L.Browser.mobile, tap: false, zoomControl: false }).setView([33.6502553, -111.9788628], 10);
         map.scrollWheelZoom.disable();
         L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
