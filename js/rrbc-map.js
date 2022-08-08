@@ -37,7 +37,7 @@
                 var icon = L.icon({ iconUrl: pin.icon, iconSize: [pin.width || 32, pin.height || 32], iconAnchor: [pin.width / 2 || 16, pin.height || 32], popupAnchor: [0, -pin.height || -32] });
                 var marker = L.marker(pin.geo, { icon: icon }).addTo(group);
                 if (pin.id == 'church') window.marker = marker;
-                marker.on('mouseover', function (e) { this.openPopup(); });
+                //marker.on('mouseover', function (e) { this.openPopup(); });
                 //marker.on('mouseout', function (e) { this.closePopup(); map.fitBounds(window.path.getBounds(), { padding: [16, 16] }); });
                 marker.bindPopup(
                     '<div class="title">' + pin.title + '</div>' +
