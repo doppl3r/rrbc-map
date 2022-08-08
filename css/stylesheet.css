@@ -1,5 +1,7 @@
 body { margin: 0px; font-family: Arial; }
 #leaflet-map { width: 100vw; height: 100vh; }
-#leaflet-map .leaflet-popup-content { max-width: 10rem; text-align: center; padding: 0.5rem; }
-#leaflet-map .leaflet-popup-content .title { color: #662410; font-size: 1rem; font-weight: bold; margin-bottom: 0.5rem; }
-#leaflet-map .leaflet-popup-content .description { color: #000000; font-size: 0.875rem; }
+#leaflet-map .leaflet-popup-content-wrapper { box-shadow: 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.1); background-color: rgba(255, 255, 255, 0.9); }
+#leaflet-map .leaflet-popup-content-wrapper .leaflet-popup-content { max-width: 10rem; text-align: center; padding: 0.5rem; }
+#leaflet-map .leaflet-popup-content-wrapper .leaflet-popup-content .title { color: #662410; font-size: 1rem; font-weight: bold; margin-bottom: 0.5rem; }
+#leaflet-map .leaflet-popup-content-wrapper .leaflet-popup-content .description { color: #000000; font-size: 0.875rem; }
+#leaflet-map .leaflet-popup-tip-container .leaflet-popup-tip { background-color: rgba(255, 255, 255, 0.9); }
